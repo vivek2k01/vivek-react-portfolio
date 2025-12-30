@@ -10,6 +10,8 @@ import UserCatagoryInsideshrijee from "../assets/UserCatagoryInsideshrijee.png";
 import UserCatagoryShrijee from "../assets/UserCatagoryShrijee.png";
 import UserDetialsShrijee from "../assets/UserDetialsShrijee.png";
 import UserShrijee from "../assets/UserShrijee.png";
+import AdminShriJee from "../assets/AdminShriJee.png";
+import AdminShriJee2 from "../assets/AdminShriJee2.png";
 
 /* =========================
    REUSABLE COMPONENTS
@@ -181,8 +183,8 @@ const ECommerce = () => {
         </ul>
 
         <div className="grid md:grid-cols-2 gap-4">
-          <AppMockup src={AdminDashboardImg} alt="Admin Dashboard" />
-          <AppMockup src={AdminDashboardImg} alt="Lead Management" />
+          <AppMockup src={AdminShriJee} alt="Admin Dashboard" />
+          <AppMockup src={AdminShriJee2} alt="Lead Management" />
         </div>
       </Section>
 

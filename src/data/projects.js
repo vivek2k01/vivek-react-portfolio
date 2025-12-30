@@ -18,6 +18,20 @@ const projects = [
     caseStudy: "/ecommerce",
   },
   {
+    name: "Portfolio Website",
+    description:
+      "Personal portfolio website to showcase projects, blogs, and skills.",
+    tech: "React, Tailwind, Framer Motion,MUI",
+    github: "https://github.com/vivek2k01/vivek-react-portfolio",
+    live: "vivek2k01.netlify.app/",
+  },
+  {
+    name: "Nexcent",
+    description: "Figma Practice Project - SaaS Landing Page Design.",
+    tech: "Figma, React, CSS",
+    github: "https://github.com/vivek2k01/Nexcent",
+  },
+  {
     name: "Transport Management System",
     description:
       "Driver, Transport Partner & Admin modules for logistics management.",

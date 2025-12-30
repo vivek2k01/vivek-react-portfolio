@@ -86,7 +86,7 @@ const Home = () => {
               className="inline-block mb-3 px-3 py-1 text-xs sm:text-sm rounded-full 
               bg-cyan-400/10 text-cyan-400 border border-cyan-400/30 font-mono"
             >
-              &lt;React Developer /&gt;
+              &lt;Web  Developer /&gt;
             </span>
 
             <motion.h1
