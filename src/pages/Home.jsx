@@ -71,6 +71,10 @@ const fadeUp = {
 const sectionHeading =
   "text-xl sm:text-2xl md:text-3xl font-bold text-cyan-400 mb-3 sm:mb-4";
 
+const startYear = 2024;
+const currentYear = new Date().getFullYear();
+const experience = currentYear - startYear;
+
 const Home = () => {
   return (
     <div className="px-3 sm:px-6 max-w-6xl mx-auto relative ">
@@ -86,7 +90,7 @@ const Home = () => {
               className="inline-block mb-3 px-3 py-1 text-xs sm:text-sm rounded-full 
               bg-cyan-400/10 text-cyan-400 border border-cyan-400/30 font-mono"
             >
-              &lt;Web  Developer /&gt;
+              &lt;Web Developer /&gt;
             </span>
 
             <motion.h1
@@ -167,7 +171,7 @@ const Home = () => {
             >
               <div className="flex flex-col">
                 <span className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-cyan-400 font-mono">
-                  2+
+                  {experience}+
                 </span>
                 <span className="text-gray-400 text-xs sm:text-sm">
                   Years Experience

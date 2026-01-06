@@ -4,7 +4,7 @@ const projects = [
     description:
       "Admin can manage customers, employees, sales, salary, events, QR payment, monthly bills & downloads.",
     tech: "React, Tailwind, MUI, Firebase",
-    live: "refreshh2o.com",
+    live: "refreshh2o.web.app",
     github: "https://github.com/vivek2k01/chilled_water_crm",
     caseStudy: "/refreshh2o",
   },
