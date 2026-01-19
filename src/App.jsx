@@ -7,6 +7,7 @@ import RefreshH2O from "./pages/RefreshH2O";
 import ECommerce from "./pages/ECommerce";
 import Transport from "./pages/Transport";
 import ScrollToTop from "./components/ScrollToTop";
+import YatraKro from "./pages/YatraKro";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/refreshh2o" element={<RefreshH2O />} />
           <Route path="/ecommerce" element={<ECommerce />} />
           <Route path="/transport" element={<Transport />} />
+          <Route path="/yatrakro" element={<YatraKro/>}/>
         </Routes>
 
         <Footer />

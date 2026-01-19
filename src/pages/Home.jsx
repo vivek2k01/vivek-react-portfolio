@@ -143,7 +143,7 @@ const Home = () => {
               </Link>
 
               <a
-                href="/resume.pdf"
+                href="/Vivek_frontend_resume.pdf"
                 download
                 className="border border-cyan-400 text-cyan-400 px-4 sm:px-6 md:px-8 py-2 sm:py-3 rounded-lg text-sm sm:text-base hover:bg-cyan-400 hover:text-black transition"
               >
@@ -189,7 +189,7 @@ const Home = () => {
 
               <div className="flex flex-col">
                 <span className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-cyan-400">
-                  3
+                  5+
                 </span>
                 <span className="text-gray-400 text-xs sm:text-sm">
                   Live Projects
